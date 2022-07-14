@@ -7,4 +7,7 @@ def special_function(is_special):
       return "this function is not special"
 
 def guess_age()
-   return randint(0, 100)
+   yes  = true 
+   if yes:
+      return randint(0, 100)
+   return randint(0, 50)
